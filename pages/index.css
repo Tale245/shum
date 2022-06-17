@@ -298,31 +298,29 @@ align-items: center;
   background-image: url(../images/our-team__background-image.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: cover;
+  background-size: cover;
 }
 @media screen and (max-width: 1280px){
   .our-team{
     background-size: cover;
     max-width: 1280px;
-    max-height: 949px;
+    min-height: 949px;
   }
 }
 @media screen and (max-width: 1024px){
   .our-team{
     max-width: 1024px;
-    max-height: 949px;
+    min-height: 949px;
   }
 }
 @media screen and (max-width: 768px){
   .our-team{
-    background-size: cover;
     max-width: 768px;
-    max-height: 949px;
+    min-height: 949px;
   }
 }
 @media screen and (max-width: 550px){
   .our-team{
-    background-size: cover;
     max-width: 320px;
     min-height: 400px;
   }
