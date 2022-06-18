@@ -134,6 +134,7 @@ align-items: center;
 }
 @media screen and (max-width: 768px){
   .images:last-of-type{
+    background-attachment:scroll;
     padding-top: 18px;
   }
 }
@@ -315,6 +316,7 @@ align-items: center;
 }
 @media screen and (max-width: 768px){
   .our-team{
+    background-attachment:scroll;
     max-width: 768px;
     min-height: 949px;
   }
@@ -370,7 +372,7 @@ align-items: center;
     height: 301px;
     }
 }
-.our-team__button{
+/* .our-team__button{
   margin: 0;
   margin-right: 56px;
   width:70px;
@@ -388,7 +390,7 @@ align-items: center;
   margin-left: 56px;
   margin-right: 0;
   transform: rotate(180deg);
-}
+} */
 .out-team__name{
   margin: 0;
   width: 218px;
