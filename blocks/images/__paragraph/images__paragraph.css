@@ -1,0 +1,27 @@
+.images__paragraph{
+  margin: 0 auto;
+  margin-top: 41px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+@media screen and (max-width:1280px)  {
+  .images__paragraph{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width:1024px)  {
+  .images__paragraph{
+    font-size: 23px;
+  }
+}
+@media screen and (max-width:768px)  {
+  .images__paragraph{
+    margin-top: 35px;
+    font-size: 19px;
+  }
+}

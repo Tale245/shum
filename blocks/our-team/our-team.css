@@ -1,0 +1,34 @@
+.our-team{
+  margin: 0 auto;
+  border-top: 1px solid #fff;
+  padding-top: 98px;
+  background-image: url(../../images/our-team__background-image.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1280px){
+  .our-team{
+    max-width: 1280px;
+    min-height: 949px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .our-team{
+    max-width: 1024px;
+    min-height: 949px;
+  }
+}
+@media screen and (max-width: 768px){
+  .our-team{
+    background-attachment:scroll;
+    max-width: 768px;
+    min-height: 949px;
+  }
+}
+@media screen and (max-width: 550px){
+  .our-team{
+    max-width: 320px;
+    min-height: 400px;
+  }
+}

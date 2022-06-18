@@ -1,0 +1,33 @@
+.images__link{
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 88px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 33px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+@media screen and (max-width:1280px)  {
+  .images__link{
+    font-size: 29px;
+  }
+}
+@media screen and (max-width:768px)  {
+  .images__link{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width:550px)  {
+  .images__link{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 21px;
+  }
+}

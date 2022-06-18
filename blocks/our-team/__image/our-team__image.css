@@ -1,0 +1,12 @@
+@media screen and (max-width: 1024px){
+  .our-team__image{
+    width: 385px;
+    height: 451px;
+    }
+}
+@media screen and (max-width: 550px){
+  .our-team__image{
+    width: 250px;
+    height: 301px;
+    }
+}

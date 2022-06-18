@@ -1,0 +1,15 @@
+.images__container{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(max-content, min-content));
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  row-gap: 29px;
+  column-gap: 22px;
+}
+@media screen and (max-width:700px)  {
+  .images__container{
+    grid-template-columns: repeat(1, minmax(max-content, min-content));
+    grid-template-rows: repeat(6, 1fr);
+  }
+}

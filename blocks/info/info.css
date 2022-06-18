@@ -1,0 +1,14 @@
+.info{
+  margin: 0 auto;
+  padding-bottom: 285px;
+}
+@media screen and (max-width: 1280px)  {
+  .info{
+    padding-bottom: 230px;
+  }
+}
+@media screen and (max-width: 1024px)  {
+  .info{
+    padding-bottom: 150px;
+  }
+}

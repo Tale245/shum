@@ -1,0 +1,35 @@
+.info__paragraph{
+  margin: 0;
+  max-width: 1036px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 1280px)  {
+  .info__paragraph{
+    max-width: 575px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1024px)  {
+  .info__paragraph{
+    max-width: 525px;
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 1024px)  {
+  .info__paragraph{
+    max-width: none;
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 768px)  {
+  .info__paragraph{
+    max-width: none;
+    margin-top: 30px;
+    font-size: 21px;
+  }
+}
