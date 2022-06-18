@@ -25,6 +25,7 @@
 @import url(../blocks/our-team/__name/our-team__name.css);
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__item/info__item.css);
+@import url(../blocks/info/__image/info__image.css);
 @import url(../blocks/info/__paragraph/info__paragraph.css);
 @import url(../blocks/info/__paragraph/_first/info__paragraph_first.css);
 @import url(../blocks/info/__paragraph/_second/info__paragraph_second.css);
